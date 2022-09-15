@@ -623,3 +623,44 @@ Register Section
   line-height: 26px;
 }
 
+/*--------------------
+How Does It Work Section
+--------------------*/
+.how-does-it-work-item {
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.how-does-it-work-item.line-right::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 50%;
+  top: 60px;
+  background-color: var(--main-color);
+  z-index: -1;
+}
+
+.how-does-it-work-item .step {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  background-color: var(--main-color);
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+
+.how-does-it-work-item h3 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--black-900);
+}
