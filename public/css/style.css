@@ -494,3 +494,74 @@ Discover Section
   color: var(--black-400);
   margin: 0 0 15px;
 }
+
+/*--------------------
+Statistics Section
+--------------------*/
+.statistics {
+  background-color: var(--black-100);
+}
+ 
+.statistics .section-title {
+  margin-bottom: 20px;
+}
+ 
+.statistics .section-title h2 {
+  text-align: left;
+}
+ 
+.statistics-img img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 32px;
+  animation: bounceTop_01 3s ease infinite;
+}
+ 
+.statistics-text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black-400);
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+ 
+.statistics-item {
+  padding: 40px 30px;
+  text-align: center;
+  box-sizing: var(--black-100);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+ 
+.statistics-item h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+ 
+.statistics-item span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  line-height: 26px;
+  display: block;
+  color: #ffffff;
+}
+ 
+.statistics-item.style-1 {
+  background-color: var(--color-1);
+}
+ 
+.statistics-item.style-2 {
+  background-color: var(--color-2);
+}
+ 
+.statistics-item.style-3 {
+  background-color: var(--color-3);
+}
+ 
+.statistics-item.style-4 {
+  background-color: var(--main-color);
+}
