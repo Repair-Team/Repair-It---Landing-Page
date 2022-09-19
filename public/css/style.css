@@ -664,3 +664,34 @@ How Does It Work Section
   font-weight: 500;
   color: var(--black-900);
 }
+
+/*--------------------
+Team Section
+--------------------*/
+.team {
+  background-color: #ffffff;
+}
+
+.team-item {
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-black-100);
+  text-align: center;
+}
+
+.team-item h3 {
+  font-size: 18px;
+  color: var(--black-900);
+  font-weight: 500;
+  margin: 15px 0 5px;
+  text-transform: capitalize;
+}
+
+.team-item span {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--black-400);
+}
+
